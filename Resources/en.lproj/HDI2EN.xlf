@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="HDI2" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="HDI2_LabelNumber" resname="HDI2_LabelNumber">
+				<source xml:space="preserve">Number:</source>
+				<target xml:space="preserve">Number:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelSpacing" resname="HDI2_LabelSpacing">
+				<source xml:space="preserve">Spacing:</source>
+				<target xml:space="preserve">Spacing:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelStyle" resname="HDI2_LabelStyle">
+				<source xml:space="preserve">Style:</source>
+				<target xml:space="preserve">Style:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelColor" resname="HDI2_LabelColor">
+				<source xml:space="preserve">Color:</source>
+				<target xml:space="preserve">Color:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelWidth" resname="HDI2_LabelWidth">
+				<source xml:space="preserve">Width:</source>
+				<target xml:space="preserve">Width:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelColumn" resname="HDI2_LabelColumn">
+				<source xml:space="preserve">Column:</source>
+				<target xml:space="preserve">Column:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelSeparator" resname="HDI2_LabelSeparator">
+				<source xml:space="preserve">Separator:</source>
+				<target xml:space="preserve">Separator:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnSave" resname="HDI2_BtnSave">
+				<source xml:space="preserve">Save</source>
+				<target xml:space="preserve">Save</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnInsertColumnBreak" resname="HDI2_BtnInsertColumnBreak">
+				<source xml:space="preserve">Insert column break</source>
+				<target xml:space="preserve">Insert column break</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnAddColumns" resname="HDI2_BtnAddColumns">
+				<source xml:space="preserve">Add 2 columns</source>
+				<target xml:space="preserve">Add 2 columns</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnAddSeparator" resname="HDI2_BtnAddSeparator">
+				<source xml:space="preserve">Add separator</source>
+				<target xml:space="preserve">Add separator</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnDecorate" resname="HDI2_BtnDecorate">
+				<source xml:space="preserve">Decorate paragraphs (2 and 4)</source>
+				<target xml:space="preserve">Decorate paragraphs (2 and 4)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnReset" resname="HDI2_BtnReset">
+				<source xml:space="preserve">Reset all properties</source>
+				<target xml:space="preserve">Reset all properties</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
