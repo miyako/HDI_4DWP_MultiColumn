@@ -7,4 +7,4 @@ SELECTION TO ARRAY:C260([Samples:1]Title:2; TabControl)
 SELECTION TO ARRAY:C260([Samples:1]Text:3; TextTabControl)
 UNLOAD RECORD:C212([Samples:1])
 
-TabControl{0}:=1
+TabControl:=1
