@@ -124,7 +124,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"textAlign": "right",
-					"text": "Number:"
+					"text": ":xliff:HDI2_LabelNumber"
 				},
 				"Popup Dropdown List2": {
 					"type": "dropdown",
@@ -147,7 +147,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"textAlign": "right",
-					"text": "Spacing:"
+					"text": ":xliff:HDI2_LabelSpacing"
 				},
 				"Text2": {
 					"type": "text",
@@ -157,7 +157,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"textAlign": "right",
-					"text": "Style:"
+					"text": ":xliff:HDI2_LabelStyle"
 				},
 				"Popup Dropdown List3": {
 					"type": "dropdown",
@@ -180,7 +180,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"textAlign": "right",
-					"text": "Color:"
+					"text": ":xliff:HDI2_LabelColor"
 				},
 				"Popup Dropdown List4": {
 					"type": "dropdown",
@@ -203,22 +203,22 @@
 					"height": 17,
 					"sizingX": "move",
 					"textAlign": "right",
-					"text": "Width:"
+					"text": ":xliff:HDI2_LabelWidth"
 				},
 				"Button1": {
 					"type": "button",
 					"top": 635,
 					"left": 707,
 					"width": 178,
-					"height": 20,
 					"visibility": "hidden",
 					"sizingX": "move",
-					"text": "Save",
+					"text": ":xliff:HDI2_BtnSave",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text5": {
 					"type": "text",
@@ -228,7 +228,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"textDecoration": "underline",
-					"text": "Column:"
+					"text": ":xliff:HDI2_LabelColumn"
 				},
 				"Text6": {
 					"type": "text",
@@ -238,21 +238,21 @@
 					"height": 17,
 					"sizingX": "move",
 					"textDecoration": "underline",
-					"text": "Separator:"
+					"text": ":xliff:HDI2_LabelSeparator"
 				},
 				"Button": {
 					"type": "button",
 					"top": 492,
 					"left": 707,
 					"width": 178,
-					"height": 21,
 					"sizingX": "move",
 					"action": "insertColumnBreak",
-					"text": "Insert column break",
+					"text": ":xliff:HDI2_BtnInsertColumnBreak",
 					"focusable": false,
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		},
@@ -263,71 +263,71 @@
 					"top": 200,
 					"left": 680,
 					"width": 230,
-					"height": 20,
 					"sizingX": "move",
-					"text": "Add 2 columns",
+					"text": ":xliff:HDI2_BtnAddColumns",
 					"focusable": false,
 					"method": "ObjectMethods/btnColumn.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"btnSeparator": {
 					"type": "button",
 					"top": 248,
 					"left": 680,
 					"width": 230,
-					"height": 20,
 					"sizingX": "move",
-					"text": "Add separator",
+					"text": ":xliff:HDI2_BtnAddSeparator",
 					"focusable": false,
 					"method": "ObjectMethods/btnSeparator.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"btnDecorate": {
 					"type": "button",
 					"top": 296,
 					"left": 680,
 					"width": 230,
-					"height": 20,
 					"sizingX": "move",
-					"text": "Decorate paragraphs (2 and 4)",
+					"text": ":xliff:HDI2_BtnDecorate",
 					"focusable": false,
 					"method": "ObjectMethods/btnDecorate.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"btnReset": {
 					"type": "button",
 					"top": 396,
 					"left": 680,
 					"width": 230,
-					"height": 20,
 					"sizingX": "move",
-					"text": "Reset all properties",
+					"text": ":xliff:HDI2_BtnReset",
 					"focusable": false,
 					"method": "ObjectMethods/btnReset.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button2": {
 					"type": "button",
 					"top": 588,
 					"left": 680,
 					"width": 230,
-					"height": 20,
 					"visibility": "hidden",
 					"sizingX": "move",
-					"text": "Insert column break",
+					"text": ":xliff:HDI2_BtnInsertColumnBreak",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		}

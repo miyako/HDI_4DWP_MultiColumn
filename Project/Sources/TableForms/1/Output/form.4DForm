@@ -58,7 +58,7 @@
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "ID : "
+					"text": ":xliff:TF_ID"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -67,7 +67,7 @@
 					"width": 280,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Title : "
+					"text": ":xliff:TF_Title"
 				},
 				"S3_Text": {
 					"type": "text",
@@ -76,7 +76,7 @@
 					"width": 240,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Text : "
+					"text": ":xliff:TF_Text"
 				},
 				"S4_Text": {
 					"type": "text",
@@ -85,7 +85,7 @@
 					"width": 280,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "SampleSort : "
+					"text": ":xliff:TF_SampleSort"
 				},
 				"Rectangle6": {
 					"type": "rectangle",
@@ -94,7 +94,8 @@
 					"width": 1000,
 					"height": 25,
 					"sizingX": "grow",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"fill": "automatic"
 				},
 				"S1_Field": {
 					"type": "input",
@@ -132,7 +133,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Samples:1]Title:2",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -157,7 +158,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Samples:1]Text:3",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -182,7 +183,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Samples:1]SampleSort:4",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",

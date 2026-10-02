@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="TableForms" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="TF_Samples" resname="TF_Samples">
+				<source xml:space="preserve">Samples</source>
+				<target xml:space="preserve">サンプル</target>
+			</trans-unit>
+			<trans-unit id="TF_Person" resname="TF_Person">
+				<source xml:space="preserve">Person</source>
+				<target xml:space="preserve">人物</target>
+			</trans-unit>
+			<trans-unit id="TF_ID" resname="TF_ID">
+				<source xml:space="preserve">ID : </source>
+				<target xml:space="preserve">ID : </target>
+			</trans-unit>
+			<trans-unit id="TF_Title" resname="TF_Title">
+				<source xml:space="preserve">Title : </source>
+				<target xml:space="preserve">タイトル : </target>
+			</trans-unit>
+			<trans-unit id="TF_Text" resname="TF_Text">
+				<source xml:space="preserve">Text : </source>
+				<target xml:space="preserve">テキスト : </target>
+			</trans-unit>
+			<trans-unit id="TF_SampleSort" resname="TF_SampleSort">
+				<source xml:space="preserve">SampleSort : </source>
+				<target xml:space="preserve">並び順 : </target>
+			</trans-unit>
+			<trans-unit id="TF_Lastname" resname="TF_Lastname">
+				<source xml:space="preserve">Lastname : </source>
+				<target xml:space="preserve">姓 : </target>
+			</trans-unit>
+			<trans-unit id="TF_Firstname" resname="TF_Firstname">
+				<source xml:space="preserve">Firstname : </source>
+				<target xml:space="preserve">名 : </target>
+			</trans-unit>
+			<trans-unit id="TF_Add" resname="TF_Add">
+				<source xml:space="preserve">Add</source>
+				<target xml:space="preserve">追加</target>
+			</trans-unit>
+			<trans-unit id="TF_Delete" resname="TF_Delete">
+				<source xml:space="preserve">Delete</source>
+				<target xml:space="preserve">削除</target>
+			</trans-unit>
+			<trans-unit id="TF_ShowAll" resname="TF_ShowAll">
+				<source xml:space="preserve">Show all</source>
+				<target xml:space="preserve">すべて表示</target>
+			</trans-unit>
+			<trans-unit id="TF_ShowSubset" resname="TF_ShowSubset">
+				<source xml:space="preserve">Show subset</source>
+				<target xml:space="preserve">サブセットを表示</target>
+			</trans-unit>
+			<trans-unit id="TF_Query" resname="TF_Query">
+				<source xml:space="preserve">Query</source>
+				<target xml:space="preserve">検索</target>
+			</trans-unit>
+			<trans-unit id="TF_OrderBy" resname="TF_OrderBy">
+				<source xml:space="preserve">Order by</source>
+				<target xml:space="preserve">並べ替え</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

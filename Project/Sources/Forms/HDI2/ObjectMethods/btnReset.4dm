@@ -1,3 +1,5 @@
+var $paragraphCollection : Collection
+
 WP RESET ATTRIBUTES:C1344(wpDoc; wk column count:K81:199; wk column spacing:K81:249)
 WP RESET ATTRIBUTES:C1344(wpDoc; wk column rule style:K81:250; wk column rule width:K81:252; wk column rule color:K81:251)
 

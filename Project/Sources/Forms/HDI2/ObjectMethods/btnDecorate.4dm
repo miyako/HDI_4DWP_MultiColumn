@@ -1,3 +1,5 @@
+var $bodySource; $rangeSource : Object
+var $paragraphCollection : Collection
 
 // set bottom margin to whole document
 $bodySource:=WP Get body:C1516(wpDoc)

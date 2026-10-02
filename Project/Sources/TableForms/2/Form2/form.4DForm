@@ -66,9 +66,9 @@
 					"left": 12,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Add"
+					"text": ":xliff:TF_Add"
 				},
 				"bDelete": {
 					"type": "pictureButton",
@@ -95,9 +95,9 @@
 					"left": 84,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Delete"
+					"text": ":xliff:TF_Delete"
 				},
 				"bShowAll": {
 					"type": "pictureButton",
@@ -124,9 +124,9 @@
 					"left": 156,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Show all"
+					"text": ":xliff:TF_ShowAll"
 				},
 				"bShowSubSet": {
 					"type": "pictureButton",
@@ -153,9 +153,9 @@
 					"left": 228,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Show subset"
+					"text": ":xliff:TF_ShowSubset"
 				},
 				"bQuery": {
 					"type": "pictureButton",
@@ -182,9 +182,9 @@
 					"left": 300,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Query"
+					"text": ":xliff:TF_Query"
 				},
 				"bOrderBy": {
 					"type": "pictureButton",
@@ -211,9 +211,9 @@
 					"left": 372,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Order by"
+					"text": ":xliff:TF_OrderBy"
 				},
 				"Picture4": {
 					"type": "picture",
@@ -232,7 +232,7 @@
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "ID : "
+					"text": ":xliff:TF_ID"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -241,7 +241,7 @@
 					"width": 240,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Lastname : "
+					"text": ":xliff:TF_Lastname"
 				},
 				"S3_Text": {
 					"type": "text",
@@ -250,7 +250,7 @@
 					"width": 240,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Firstname : "
+					"text": ":xliff:TF_Firstname"
 				},
 				"Rectangle5": {
 					"type": "rectangle",
@@ -259,7 +259,8 @@
 					"width": 648,
 					"height": 25,
 					"sizingX": "grow",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"fill": "automatic"
 				},
 				"S1_Field": {
 					"type": "input",
@@ -297,7 +298,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Person:2]Lastname:3",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -322,7 +323,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Person:2]Firstname:2",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",

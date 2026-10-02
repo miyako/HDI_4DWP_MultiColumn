@@ -1,2 +1,2 @@
 //%attributes = {"invisible":true}
-C_OBJECT:C1216(wpDoc)
+var wpDoc : Object
