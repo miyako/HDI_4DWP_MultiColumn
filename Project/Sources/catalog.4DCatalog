@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_4DWP_MultiColumn" uuid="4B8E8169B0F743D0A3470F0B5075F870" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Samples" uuid="0D2F6831262A425592891871F83B48FC" id="1">
+		<field name="ID" uuid="D8F5E1CD3997477885BB93067934E1EC" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Title" uuid="0E222194245E4B2DA6AA7C942460D904" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Text" uuid="39F264CA07484E9FBCCDABEC93F8891B" type="10" never_null="true" id="3"/>
+		<field name="SampleSort" uuid="6BC1F3AE5D15421CA88D93333C7BA23B" type="10" limiting_length="255" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="D8F5E1CD3997477885BB93067934E1EC"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<table name="Person" uuid="EAEA2228E5B544C4BE3DD617C44C70C7" id="2">
+		<field name="ID" uuid="190506AC313442429DEF0EC3478C531E" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Firstname" uuid="517756738DF341CEA3C2226EC7A0F158" type="10" never_null="true" id="2"/>
+		<field name="Lastname" uuid="19563B5CDC8B4E31B42B983DB34985A9" type="10" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="190506AC313442429DEF0EC3478C531E"/>
+		<table_extra input_form="Form1" output_form="Form2"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="8F1556F35F29468EAF2A7C9F2712CDCC" type="7">
+		<field_ref uuid="190506AC313442429DEF0EC3478C531E" name="ID">
+			<table_ref uuid="EAEA2228E5B544C4BE3DD617C44C70C7" name="Person"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="DF86F14179E14BB39B0B204153AD7AEF" type="1">
+		<field_ref uuid="D8F5E1CD3997477885BB93067934E1EC" name="ID">
+			<table_ref uuid="0D2F6831262A425592891871F83B48FC" name="Samples"/>
+		</field_ref>
+	</index>
+	<base_extra package_name="HDI_4DWP_MultiColumn" structure_file_name="HDI_4DWP_MultiColumn" data_file_path=":HDI_4DWP_MultiColumn.4DD">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>
